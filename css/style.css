@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*height: 10000vh;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {
+    background-color: black;
+    height: 810px;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+    position: fixed;
+    height: 60px;
+}
+
+.header img {
+    width: 150px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.list {
+    float: right;
+    margin-left: 18px;
+    padding: 18px;
+    list-style-type: none;
+}
+ul li {
+    display: inline;
+    cursor: pointer;
+    padding-left: 18px;
+    padding-right: 10px
+}
+.background {
+    position: relative;
+}
+.background img {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    opacity: 0.4;
+}
+.gradient {
+    background-image: radial-gradient(transparent, transparent, #131313);
+    height: 750px;
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.content {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.content h3 {
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.butns {
+    top: 50%;
+    left: 38%;
+    position: absolute;
+    margin-top: 100px;
+}
+.but1 {
+    width: 150px;
+    height: 60px;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: medium;
+}
+.but2 {
+    width: 150px;
+    height: 60px;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+
+}
+.but1:hover {
+    background-color: #FF1493;
+    width: 170px;
+    font-weight: bold;
+    font-size: large;
+}
+.but2:hover {
+    background-color: #FF1493;
+    width: 170px;
+    font-weight: bold;
+    font-size: large;
+}
+body {
+    background-color: white;
+}
+.section2 {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+.section2 h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+}
+.divs {
+    position: absolute;
+    margin: 180px 80px;
+}
+.div1 h4 {
+    text-align: center;
+}
+.div2 h4 {
+    text-align: center;
+}
+.div3 h4 {
+    text-align: center;
+}
+.div1 {
+    background-color: #808080;
+    float: left;
+    width: 28%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.div1:hover {
+    background-color: #FF69B4;
+    width: 30%;
+    height: 230px;
+    margin-top: -20px;
+}
+.div2 {
+    background-color: #808080;
+    float: left;
+    margin-left: 40px;
+    width: 28%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.div2:hover:hover {
+    background-color: #FF69B4;
+    width: 30%;
+    height: 230px;
+    margin-top: -20px;
+}
+.div3 {
+    background-color: #808080;   
+    float: left;
+    margin-left: 40px;
+    width: 28%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.div3:hover {
+    background-color: #FF69B4;
+    width: 30%;
+    height: 230px;
+    margin-top: -20px;
+}
+.fa-object-ungroup {
+    font-size: 30px;
+    color: white;
+    border: none;
+    padding: 30px 20px;
+} 
+.div1 h3 {
+    display: inline;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.div1 p {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+.fa-user-friends {
+    font-size: 25px;
+    color: white;
+    border: none;
+    padding: 30px 20px;
+} 
+.div2 h3 {
+    display: inline;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.div2 p {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+.fa-hand-holding-usd {
+    font-size: 30px;
+    color: white;
+    border: none;
+    padding: 30px 20px;
+} 
+.div3 h3 {
+    display: inline;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.div3 p {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+/*//////////////////////////////////////////*/
+.divs2 {
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+.divs2 h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 400px;
+}
+/*.divall {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+}*/
+.img1 {
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin-top: 500px;
+}
+.img1 img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+.img1 .pspan1 {
+    visibility: hidden;
+    position: absolute;
+    background-color: #131313;
+    opacity: 0.4;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.img1 span {
+    padding: 130px 150px;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.img1 p {
+    padding: 180px 80px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.fa-search {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 200px 180px;
+    float: left;
+    display: inline;
+    color: #6195ff;
+}
+.img1:hover .pspan1 {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.img2 {
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin-top: 500px;
+}
+.img2 img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+.img2 .pspan2 {
+    visibility: hidden;
+    position: absolute;
+    background-color: #131313;
+    opacity: 0.4;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.img2 span {
+    position: absolute;
+    padding: 130px 150px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.img2 p {
+    position: absolute;
+    padding: 180px 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.img2:hover .pspan2 {
+    visibility: visible;
+    cursor: pointer;
+}
+.img3 {
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    position: relative;
+    height: 350px;
+    margin-top: 500px;
+}
+.img3 img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+.img3 span {
+    position: absolute;
+    padding: 130px 150px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.img3 p {
+    position: absolute;
+    padding: 180px 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.img3 .pspan3 {
+    visibility: hidden;
+    position: absolute;
+    background-color: #131313;
+    opacity: 0.4;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.img3:hover .pspan3 {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.img4 {
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+}
+.img4 img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+
+.img4 span {
+    position: absolute;
+    padding: 100px 100px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.img4 p {
+    position: absolute;
+    padding: 180px 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.img4 .pspan4 {
+    visibility: hidden;
+    position: absolute;
+    background-color: #131313;
+    opacity: 0.4;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.img4:hover .pspan4 {
+    visibility: visible;
+    cursor: pointer;
+}
+.img5 {
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+}
+.img5 img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+.img5 span {
+    position: absolute;
+    padding: 120px 120px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.img5 p {
+    position: absolute;
+    padding: 180px 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.img5 .pspan5 {
+    visibility: hidden;
+    position: absolute;
+    background-color: #131313;
+    opacity: 0.4;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.img5:hover .pspan5 {
+    visibility: visible;
+    cursor: pointer;
+}
+.img6 {
+    float: left;
+    position: relative;
+    margin-left: 50px;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+}
+.img6 img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+.img6 span {
+    position: absolute;
+    padding: 130px 100px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.img6 p {
+    position: absolute;
+    padding: 180px 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.img6 .pspan6 {
+    visibility: hidden;
+    position: absolute;
+    background-color: #131313;
+    opacity: 0.4;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.img6:hover .pspan6 {
+    visibility: visible;
+    cursor: pointer;
+}
+
+
+.section3 .parag, .imgleft {
+    margin-top: 300px;
+    display: inline;
+}
+.imgleft img {
+    width: 500px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 600px;
+}
+
+.parag {
+    margin-left: 80px;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.parag p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.parag h3 {
+    font-size: 20px;
+    color: #b125c4;
+    font-weight: bold;
+    text-align: left;
+}
+.parag h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: left;
+    word-spacing: 12px;
+}
